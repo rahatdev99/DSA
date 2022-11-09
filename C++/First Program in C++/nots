@@ -1,0 +1,35 @@
+##### C++ Operators ######
+
+ In this tutorial, we will learn about the different types of operators in C++ with the help of examples. In programming, an operator is a symbol that opertes on a value or a variable.
+
+ Operators are symbols that perform operations on variables and valus. For example (+) is an opertors used for addition, while (-) is an operator used for subtraction.
+
+ Operators is C++ can be classified into 6 types:
+
+ 1. C++ Arithmetic Operators
+
+ Arithmetic opertors are used to perform arithmetic operations on variables and data. For example,
+ a + b
+ Here the (+) operator is used to add tow variables (a) and (b). Similarly there are various other arithnetic operators in C++.
+
+ Operator:
+
+ (+) Addition.
+ (-) Subtraction.
+ (*) Multiplication.
+ (/) Division.
+ (%) Modulo Operation (Remainder after division).
+
+ 2. C++ Assignment Operator
+
+ In C++ assignment opertors are used to assign values to variables. For example..
+ a = 5;
+
+ Opertor: 
+
+ (=) (a = n) (a = b)
+ (+=) (a += b) (a = a+b)
+ (-=) (a -= b) (a = a-b)
+ (*=) (a *= b) (a = a*b)
+ (/=) (a /= b) (a = a/b)
+ (%=) (a %= b) (a = a%b)
