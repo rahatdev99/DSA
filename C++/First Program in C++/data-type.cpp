@@ -33,7 +33,7 @@ int main()
 
     string result = (3 % 2 == 0) ? "even" : "odd";
 
-    cout<<result<<endl;
+    cout<<"Result: "<<result<<endl;
 
 
     return 0;
