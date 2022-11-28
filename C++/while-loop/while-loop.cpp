@@ -7,12 +7,23 @@ int main()
     int n;
     cin>>n;
 
-    int i = 1;
+    int i = 2;
+    int flag = true;
 
-    while(i <= n) {
-        cout<<i<<endl;
-        i = i+1;
+    while(i < n) {
+        if(i % n == 0) {
+            flag = false;
+        }
+        i++;
+    }
+
+    if(flag) {
+        cout<<n<<" is prime number"<<endl;
+    }
+    else{
+        cout<<n<<" is not prime number"<<endl;
     }
     
+
     return 0;
 }
