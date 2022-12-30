@@ -48,9 +48,6 @@ int main()
     bool ans = lenearSearch(arr,n,key);
 
     cout<<ans<<endl;
-
     
-
-
     return 0;
 }
