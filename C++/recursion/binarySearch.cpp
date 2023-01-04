@@ -15,6 +15,20 @@ bool isSorted(int *arr,int n) {
     }
 }
 
+bool checkPalindrome(string str,int n) {
+    int i = 0, j = n-1;
+
+    if(i > j) 
+       return true;
+
+    if(str[i] != str[j]) {
+        return false;
+    }  
+    else{
+        checkPalindrome(str,i+1,j-1);
+    }   
+}
+
 bool binarySearch(int *arr,int s,int e,int key) {
 
     if(s > e) return false;
@@ -37,8 +51,6 @@ int main()
     if(binarySearch(arr,0,n-1,11)) {
         cout<<"Yes!"<<endl;
     }
-    else{
-        cout<<"No!"<<endl;
-    }
+                                                                                                                                                                    
 
 }
